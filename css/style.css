@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #121212;
+    --primary-color: #DAA520;
+}
+
+.whats {
+    width: 80px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+html,
+body {
+    background-color: var(--bg-color);
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    scroll-behavior: smooth;
+}
+
+.logo {
+    width: 200px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    max-width: 1160px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--primary-color);
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 58px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: normal;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+main {
+    max-width: 1160px;
+    display: flex;
+    flex-direction: column;
+    gap: 15rem;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#home p {
+    font-size: 25px;
+    text-align: justify;
+}
+
+.btn-contato {
+    width: 200px;
+    background-color: #DAA520;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 10px;
+    color: var(--bg-color);
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 350px;
+    background-color: #161616;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    gap: 1rem;
+}
+
+#especialidades {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+#especialidades .card h3 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.card p {
+    line-height: 25px;
+}
+
+.icon {
+    background: var(--primary-color);
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.line {
+    width: 180px;
+    height: 3px;
+    background-color: var(--primary-color);
+}
+
+.titulo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#diferenciais {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.diferenciais-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.diferenciais-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.diferencial {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 20px;
+}
+
+#sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem
+}
+
+#sobre img {
+    width: 400px;
+    border-radius: 100%;
+    border: 5px solid var(--primary-color);
+}
+
+#sobre p {
+    line-height: 25px;
+    text-align: justify;
+}
+
+.container-sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#clientes {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+#clientes h3 {
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.estrelas img {
+    width: 35px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    height: 320px;
+    gap: 1rem;
+}
+
+footer img {
+    width: 400px;
+}
